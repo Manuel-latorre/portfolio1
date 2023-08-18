@@ -1,0 +1,82 @@
+
+
+.inicio{
+    transform: translateY(100px);
+    width: 90%;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border: solid 1px rgba(222, 218, 218, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.divTexto{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    text-shadow:  0 0 50px #0f0,
+    0 0 150px #0f0,
+    0 0 200px #0f0,
+    0 0 250px #0f0;
+    animation: animate 5s linear infinite;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+
+h5{
+    color: white;
+    font-weight: bold;
+}
+
+.fotoPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.fotoPerfil:hover{
+    transform: rotate(360deg)
+}
+
+
+@keyframes animate 
+{
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.text{
+    color: rgb(230, 229, 229);
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    .inicio{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+    }
+}
