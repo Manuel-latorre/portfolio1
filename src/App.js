@@ -4,7 +4,7 @@ import Inicio from './components/Inicio/Inicio';
 import Titulos from './components/Titulos/Titulos';
 import Proyectos from './components/Proyectos/Proyectos';
 import Tecnologias from './components/Tecnologias/Tecnologias';
-
+import Contacto from './components/Contacto/Contacto';
 function App() {
   return (
     <div className='app'>
@@ -13,6 +13,7 @@ function App() {
       <Proyectos/>
       <Titulos/>
       <Tecnologias/>
+      <Contacto/>
     </div>
   );
 }

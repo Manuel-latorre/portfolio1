@@ -1,9 +1,11 @@
+
+
 .cube{
-    position: relative;
-    width: 300px;
-    height: 300px;
+    width: 50px;
+    height: 50px;
     transform-style: preserve-3d;
-    animation: animateCube 4s linear infinite;
+    animation: animateCube 8s linear infinite;
+    margin: 40px;
 }
 
 @keyframes animateCube {
@@ -16,6 +18,8 @@
     }
 }
 
+
+
 .cube div{
     position: absolute;
     top: 0;
@@ -25,12 +29,147 @@
     transform-style: preserve-3d;
 }
 
-.cube div span{
+.cube div img{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background:linear-gradient(#151515, #00ec00);
-    transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
+    background:linear-gradient(#151515, yellow);
+    transform: rotateY(calc(90deg * var(--i))) translateZ(25px);
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #222;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+.top::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height:50px;
+    background: yellow;
+    transform:translateZ(-80px);
+    filter: blur(10px);
+    box-shadow: 0 0 120px rgba(0, 255, 0, 0.2), 
+    0 0 200px rgba(0, 255, 0, 0.4),
+    0 0 300px rgba(0, 255, 0, 0.6),
+    0 0 400px rgba(0, 255, 0, 0.8),
+    0 0 500px rgba(0, 255, 0, 0.1),
+    
+    ;
+}
+
+
+
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTec{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur();
+    border-radius: 40px;
+    border: solid 1px rgba(222, 218, 218, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.titleTecnologias{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#html div img{
+    background:linear-gradient(orangered, orange);
+}
+
+#htmlTop::before{
+    background-color: orange;
+}
+
+#css div img{
+    background:linear-gradient(blue, rgb(0, 47, 255));
+}
+
+#cssTop::before{
+    background-color: blue;
+}
+
+#sass div img{
+    background:linear-gradient(rgb(255, 156, 172), pink);
+}
+
+#sassTop::before{
+    background-color: rgb(255, 41, 77);
+}
+
+#js div img{
+    background:linear-gradient(yellow, rgb(252, 252, 50));
+}
+
+#ts div img{
+    background:#006cb4;
+}
+
+#tsTop::before{
+    background-color: #007acc;
+}
+
+#react div img{
+    background:white
+}
+
+#reactTop::before{
+    background-color: lightblue;
+}
+
+#redux div img{
+    background:linear-gradient(rgb(49, 0, 49), rgb(48, 1, 48));
+}
+
+#reduxTop::before{
+    background-color: fuchsia;
+}
+
+#ex div img{
+    background:linear-gradient(rgb(190, 190, 190), white);
+}
+
+#exTop::before{
+    background-color: white;
+}
+
+#node div img{
+    background:linear-gradient(rgb(37, 37, 37), rgb(34, 34, 34));
+}
+
+#nodeTop::before{
+    background-color: lime;
+}
+
+#postgreSQL div img{
+    background:linear-gradient(blue, blue);
+}
+
+#postgreSQLTop::before{
+    background-color: blue;
 }

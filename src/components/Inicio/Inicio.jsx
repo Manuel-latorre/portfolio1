@@ -17,7 +17,6 @@ const Inicio = () => {
                 <img  src={perfil} alt="perfil" />
             </div>   
         </div>
-
     </div>
 
   )

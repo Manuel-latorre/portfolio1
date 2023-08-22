@@ -11,6 +11,7 @@
 
 .sectionTitulos{
     margin-top: 200px;
+    margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -29,6 +30,7 @@
     0 0 250px #0f0;
     animation: animate 5s linear infinite;
     padding: 10px;
+    margin: 50px;
 }
 
 .boxCard p{
