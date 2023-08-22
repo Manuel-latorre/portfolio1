@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio1/static/css/main.b33f73a9.css",
+    "main.js": "/portfolio1/static/js/main.6c5db7bf.js",
+    "static/js/787.1297335f.chunk.js": "/portfolio1/static/js/787.1297335f.chunk.js",
+    "static/media/radtek.png": "/portfolio1/static/media/radtek.de1a63cfda72e5f9af83.png",
+    "static/media/Manuel-Latorre-Fullstack.pdf": "/portfolio1/static/media/Manuel-Latorre-Fullstack.a4d461359387a19f8133.pdf",
+    "static/media/tiendaCactus.png": "/portfolio1/static/media/tiendaCactus.872bd1d407a59e63263b.png",
+    "static/media/countries.png": "/portfolio1/static/media/countries.0d70995a4ba59e8248ce.png",
+    "static/media/fondoIncio.png": "/portfolio1/static/media/fondoIncio.547b338ae1ce47beadcd.png",
+    "static/media/certifCoderWeb.png": "/portfolio1/static/media/certifCoderWeb.e0e0e6a377df21269629.png",
+    "static/media/certifJavascript.png": "/portfolio1/static/media/certifJavascript.446da16370317447a43d.png",
+    "static/media/fotoPerfil5.png": "/portfolio1/static/media/fotoPerfil5.7d0248f362cc66ade852.png",
+    "static/media/certifHenry.png": "/portfolio1/static/media/certifHenry.0c1841b3927610375073.png",
+    "static/media/wise.png": "/portfolio1/static/media/wise.2f83b17cd48dc8cd5bfa.png",
+    "static/media/ManuelLogo1.png": "/portfolio1/static/media/ManuelLogo1.522278435d896b606df6.png",
+    "index.html": "/portfolio1/index.html",
+    "main.b33f73a9.css.map": "/portfolio1/static/css/main.b33f73a9.css.map",
+    "main.6c5db7bf.js.map": "/portfolio1/static/js/main.6c5db7bf.js.map",
+    "787.1297335f.chunk.js.map": "/portfolio1/static/js/787.1297335f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b33f73a9.css",
+    "static/js/main.6c5db7bf.js"
+  ]
+}
