@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio1/static/css/main.76a9854f.css",
-    "main.js": "/portfolio1/static/js/main.cf286e91.js",
+    "main.js": "/portfolio1/static/js/main.211b74a5.js",
     "static/js/787.1297335f.chunk.js": "/portfolio1/static/js/787.1297335f.chunk.js",
     "static/media/radtek.png": "/portfolio1/static/media/radtek.de1a63cfda72e5f9af83.png",
-    "static/media/Manuel-Latorre-Fullstack.pdf": "/portfolio1/static/media/Manuel-Latorre-Fullstack.a4d461359387a19f8133.pdf",
+    "static/media/Manuel-Latorre-Fullstack.pdf": "/portfolio1/static/media/Manuel-Latorre-Fullstack.4063e107395c9c06ddcd.pdf",
     "static/media/tiendaCactus.png": "/portfolio1/static/media/tiendaCactus.872bd1d407a59e63263b.png",
     "static/media/countries.png": "/portfolio1/static/media/countries.0d70995a4ba59e8248ce.png",
     "static/media/fondoIncio.png": "/portfolio1/static/media/fondoIncio.547b338ae1ce47beadcd.png",
@@ -16,11 +16,11 @@
     "static/media/ManuelLogo1.png": "/portfolio1/static/media/ManuelLogo1.522278435d896b606df6.png",
     "index.html": "/portfolio1/index.html",
     "main.76a9854f.css.map": "/portfolio1/static/css/main.76a9854f.css.map",
-    "main.cf286e91.js.map": "/portfolio1/static/js/main.cf286e91.js.map",
+    "main.211b74a5.js.map": "/portfolio1/static/js/main.211b74a5.js.map",
     "787.1297335f.chunk.js.map": "/portfolio1/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76a9854f.css",
-    "static/js/main.cf286e91.js"
+    "static/js/main.211b74a5.js"
   ]
 }
