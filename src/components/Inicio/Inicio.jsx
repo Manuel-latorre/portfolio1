@@ -16,7 +16,7 @@ const Inicio = () => {
                 <h5 style={{fontSize:28}}>Fullstack Developer</h5>
                 <p className='text'>Cuento con experiencia desarrollando Apps y páginas web en el stack PERN(PostgreSQL, Express, React y Node js). <br /> Trabajo con la metodologia agil SCRUM, tanto en proyectos personales como grupales. </p>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                  <a className='btnContactame' href="#">
+                  <a className='btnContactame' href="#contacto">
                                       <span></span>
                                       <span></span>
                                       <span></span>
