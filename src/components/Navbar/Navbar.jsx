@@ -20,12 +20,11 @@ const NavBar = () => {
             <img className='logoPortfolio' src={logoPortfolio} alt={logoPortfolio} />
         </div>
         <div className={`nav_items ${isOpen && 'open'}`}>
-            <a href="">Incio</a>
-            <a href="">Sobre mi</a>
-            <a href="">Proyectos</a>
-            <a href="">Tecnologias</a>
-            <a href="">Titulos</a>
-            <a href="">Contacto</a>
+            <a href="#sobreMi">Sobre mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#titulos">Titulos</a>
+            <a href="#contacto">Contacto</a>
         </div>
     </nav>
   );

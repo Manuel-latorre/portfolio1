@@ -1,0 +1,78 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    border: solid 1px rgba(222, 218, 218, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin-top: 180px;
+    height: 230px;
+}
+
+.logoFooter{
+    width: 220px;
+}
+
+.iconFooter{
+    color: white;
+    margin: 20px;
+}
+
+.email{
+    color: white;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.emailIcon{
+    color: white;
+}
+
+.sectionEmail{
+    display: flex;
+}
+
+.btnMediaFooter{
+    background: rgb(0, 0, 0);
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+
+@media(max-width:639px){
+    .footer{
+        height:400px;
+    }
+
+    .email{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:401px){
+    .btnMediaFooter{
+        margin-top: 40px;
+    }
+
+    .footer{
+        height:500px;
+    }
+}
+

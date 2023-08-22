@@ -15,7 +15,7 @@ import node from '../Proyectos/assets/node.png'
 
 const Tecnologias = () => {
   return (
-    <div className='sectionTec'>
+    <div id='tecnologias' className='sectionTec'>
 
       <p className='titleTecnologias'>Tecnologias</p>
     
@@ -72,10 +72,7 @@ const Tecnologias = () => {
           <img style={{ '--i': 1 }} src={react} alt="" />
           <img style={{ '--i': 2 }} src={react} alt="" />
           <img style={{ '--i': 3 }} src={react} alt="" />
-          {/* <span style={{ '--i': 0 }}></span>
-          <span style={{ '--i': 1 }}></span>
-          <span style={{ '--i': 2 }}></span>
-          <span style={{ '--i': 3 }}></span> */}
+          
         </div>
       </div>
       <div id='redux' className='cube'>
@@ -85,10 +82,7 @@ const Tecnologias = () => {
           <img style={{ '--i': 1 }} src={redux} alt="" />
           <img style={{ '--i': 2 }} src={redux} alt="" />
           <img style={{ '--i': 3 }} src={redux} alt="" />
-          {/* <span style={{ '--i': 0 }}></span>
-          <span style={{ '--i': 1 }}></span>
-          <span style={{ '--i': 2 }}></span>
-          <span style={{ '--i': 3 }}></span> */}
+         
         </div>
       </div>
       <div id='ex' className='cube'>
@@ -98,10 +92,7 @@ const Tecnologias = () => {
           <img style={{ '--i': 1 }} src={ex} alt="" />
           <img style={{ '--i': 2 }} src={ex} alt="" />
           <img style={{ '--i': 3 }} src={ex} alt="" />
-          {/* <span style={{ '--i': 0 }}></span>
-          <span style={{ '--i': 1 }}></span>
-          <span style={{ '--i': 2 }}></span>
-          <span style={{ '--i': 3 }}></span> */}
+          
         </div>
       </div>
       <div id='node' className='cube'>
@@ -111,10 +102,7 @@ const Tecnologias = () => {
           <img style={{ '--i': 1 }} src={node} alt="" />
           <img style={{ '--i': 2 }} src={node} alt="" />
           <img style={{ '--i': 3 }} src={node} alt="" />
-          {/* <span style={{ '--i': 0 }}></span>
-          <span style={{ '--i': 1 }}></span>
-          <span style={{ '--i': 2 }}></span>
-          <span style={{ '--i': 3 }}></span> */}
+          
         </div>
       </div>
       <div id='postgreSQL' className='cube'>
@@ -124,10 +112,7 @@ const Tecnologias = () => {
           <img style={{ '--i': 1 }} src={postgreSQL} alt="" />
           <img style={{ '--i': 2 }} src={postgreSQL} alt="" />
           <img style={{ '--i': 3 }} src={postgreSQL} alt="" />
-          {/* <span style={{ '--i': 0 }}></span>
-          <span style={{ '--i': 1 }}></span>
-          <span style={{ '--i': 2 }}></span>
-          <span style={{ '--i': 3 }}></span> */}
+          
         </div>
       </div>
       <div>

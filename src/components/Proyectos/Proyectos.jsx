@@ -17,22 +17,20 @@ import materialui from './assets/materialui.png'
 import postgresql from './assets/postgresql.png'
 import redux from './assets/redux.png'
 import android from './assets/android.png'
-import sass from './assets/sass.png'
+import LanguageIcon from '@mui/icons-material/Language';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Proyectos = () => {
   return (
-    <div>
+    <div id='proyectos'>
         <p className='misProyectos'>Mis Proyectos</p>
 
         <div className='containerProyectos'>
-            <Atropos >
+            <Atropos className='atropos' style={{margin:50}}>
                 <div className='cardProyecto'>
-                    
-                        <div className='contentCard'>
                             <img className='imgProyecto' src={radtek} alt="" data-atropos-offset="0" />
                             <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>Radtek</p>
-                            <p>Se trata Ecommerce de productos Gamers con el fin de simular el flujo de un Ecommerce real</p>
+                            <p className='textCard'>Se trata Ecommerce de productos Gamers con el fin de simular el flujo de un Ecommerce real</p>
                             <br />
                             <hr />
                             <br />
@@ -47,7 +45,7 @@ const Proyectos = () => {
                                 <img className='icontech' src={bootstrap} alt='Icono de Bootstrap' />
                             </div>
                             <div className='containerBtn'>
-                                <a className='a' href="#">
+                                <a className='a' href="https://github.com/Lucas52352/Gaming-eCommerce" target='_blank'>
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -56,19 +54,19 @@ const Proyectos = () => {
                                     Visitar
                                 </a>
                             </div>
-                        </div>
+                      
                     
                 </div>
             </Atropos>
 
 
-            <Atropos>
+            <Atropos style={{margin:50}}>
                 <div className='cardProyecto'>
                    
-                        <div className='contentCard'>
+                       
                             <img className='imgProyecto' src={wise} alt="" />
                             <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>Wise Wallet</p>
-                            <p>Consiste en el desarrollo de un App para controlar tus gastos e ingresos.</p>
+                            <p className='textCard'>Consiste en el desarrollo de un App para controlar tus gastos e ingresos.</p>
                             <br />
                             <hr />
                             <br />
@@ -82,7 +80,7 @@ const Proyectos = () => {
                                 <img className='icontech' src={android} alt="Icono de Android" />
                             </div>
                             <div className='containerBtn'>
-                                <a className='a' href="#">
+                                <a className='a' href="https://github.com/Ezeko95/Wallet-Wise-client-app" target='_blank'>
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -91,19 +89,19 @@ const Proyectos = () => {
                                     Visitar
                                 </a>
                             </div>
-                        </div>
+                       
                     
                 </div>
             </Atropos>
 
 
-            <Atropos>
+            <Atropos style={{margin:50}}>
                 <div className='cardProyecto'>
                     
-                        <div className='contentCard'>
+                        
                             <img className='imgProyecto' src={countries} alt="" />
                             <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>MyCountry</p>
-                            <p>MyCountry es un sitio Web donde el usuario puede conocer distintos paises y sus actividades turisticas</p>
+                            <p className='textCard'>MyCountry es un sitio Web donde el usuario puede conocer distintos paises y sus actividades turisticas</p>
                             <br />
                             <hr />
                             <br />
@@ -117,7 +115,7 @@ const Proyectos = () => {
                                 
                             </div>
                             <div className='containerBtn'>
-                                <a className='a' href="#">
+                                <a className='a' href="https://github.com/Manuel-latorre/PI-Countries" target='_blank'>
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -126,18 +124,18 @@ const Proyectos = () => {
                                     Visitar
                                 </a>
                             </div>
-                        </div>
+                      
                     
                 </div>
             </Atropos>
 
-            <Atropos>
+            <Atropos style={{margin:50}}>
                 <div className='cardProyecto'>
                     
-                        <div className='contentCard'>
+                      
                             <img className='imgProyecto' src={cactus} alt="" />
                             <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>Tienda Cactus</p>
-                            <p>Tienda Cactus es un E-commerce ficticio de streetwear. Proximamente me gustaria agregarle una pasarela de pagos para que sea mas real y dinamico.</p>
+                            <p className='textCard'>Tienda Cactus es un E-commerce ficticio de streetwear. Proximamente me gustaria agregarle una pasarela de pagos para que sea mas real y dinamico.</p>
                             <br />
                             <hr />
                             <br />
@@ -149,16 +147,16 @@ const Proyectos = () => {
                                 
                             </div>
                             <div className='containerBtn'>
-                                <a className='a' href="#">
+                                <a className='a' href="https://manuel-latorre.github.io/Tienda-Cactus/" target='_blank'>
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                     <span></span>
-                                    <GitHubIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    <LanguageIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
                                     Visitar
                                 </a>
                             </div>
-                        </div>
+
                     
                 </div>
             </Atropos>

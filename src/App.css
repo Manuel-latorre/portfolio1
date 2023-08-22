@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
-
+*{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .app{
@@ -14,4 +14,6 @@
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.373);
 }

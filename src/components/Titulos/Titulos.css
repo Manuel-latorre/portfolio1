@@ -2,11 +2,14 @@
     width: 400px;   
     margin: 20px;
     border-radius: 10px;
-    text-shadow:  0 0 50px #0f0,
-    0 0 150px #0f0,
-    0 0 200px #0f0,
-    0 0 250px #0f0;
-    animation: animate 5s linear infinite;
+}
+
+.allTtiulos{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sectionTitulos{
@@ -14,6 +17,7 @@
     margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
     justify-content: space-around;
 }
 
@@ -24,16 +28,47 @@
     border-radius: 40px;
     border: solid 1px rgba(222, 218, 218, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    text-shadow:  0 0 50px #0f0,
-    0 0 150px #0f0,
-    0 0 200px #0f0,
-    0 0 250px #0f0;
-    animation: animate 5s linear infinite;
     padding: 10px;
-    margin: 50px;
+    margin: 40px;
 }
 
 .boxCard p{
     text-align: center;
     color: white;
+}
+
+.titleCertificados{
+    font-size: 40px;
+     font-weight: bold;
+     text-align:center;
+     color: white;
+
+}
+
+.allTtiulosFooter{
+    display: none;
+}
+
+@media(max-width:574px){
+    .boxCard{
+        width: 300px;
+        text-align: center;
+        margin: 20;
+    }
+
+    .certificado{
+        width: 230px;
+    }
+}
+
+@media(max-width:369px){
+    .allTtiulos{
+        display: none;
+    }
+
+    .allTtiulosFooter{
+        display: flex;
+        flex-direction: column;
+    }
+
 }

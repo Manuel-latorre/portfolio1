@@ -4,19 +4,26 @@
     border-radius:30px ;
     margin-bottom: 30px;
     margin:25px;
+    margin: auto;
 }
 
 .cardProyecto{
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 700px;
+    color: white;
     background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 40px;
     border: solid 1px rgba(222, 218, 218, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    padding: 15px;
-    cursor: pointer;
-    height: 700px;
 }
 
 .containerProyectos{
@@ -37,13 +44,6 @@
 
 .contentCard{
     border-radius: 50%;
-}
-
-.contentCard p{
-    text-align: center;
-    margin: auto;
-    width: 300px;
-    color: white;
 }
 
 .icontech{
@@ -148,4 +148,28 @@
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
+}
+
+
+@media(max-width:524px){
+    .cardProyecto{
+        width: 300px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        z-index: 1;
+    }
+
+    .imgProyecto{
+        width: 250px;
+        height: 150px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .cardProyecto .textCard{
+        padding: 10px;
+    }
+
+
 }
