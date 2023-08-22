@@ -150,6 +150,10 @@
     transition-delay: 0.75s;
 }
 
+.containerProyectosMobile{
+    display: none;
+}
+
 @media(max-width:788px){
     .containerProyectos{
         display: none;
