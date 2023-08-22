@@ -49,6 +49,20 @@
     display: none;
 }
 
+@media(max-width:788px){
+    .allTtiulos{
+        display: none;
+    }
+    .allTtiulosFooter{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionTitulos{
+        margin-bottom: 100px;
+    }
+}
+
 @media(max-width:574px){
     .boxCard{
         width: 300px;
@@ -61,14 +75,3 @@
     }
 }
 
-@media(max-width:369px){
-    .allTtiulos{
-        display: none;
-    }
-
-    .allTtiulosFooter{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
