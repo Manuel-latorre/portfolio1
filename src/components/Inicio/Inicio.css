@@ -81,9 +81,12 @@ h5{
     overflow: hidden;
     transition: 0.5s;
     margin-top: 50px;
+    border: solid 1px rgba(51, 51, 51, 0.736);
+    border-radius: 4px;
 }
 
 .btnContactame:hover{
+    border: none;
    color: white;
    background:  #7300ff; 
    box-shadow: 0 0 10px #7300ff, 0 0 40px #7300ff, 0 0 80px #7300ff;

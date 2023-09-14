@@ -1,10 +1,10 @@
-import React from 'react'
 import './Proyectos.css'
+import 'atropos/css'
+import React from 'react'
 import radtek from './assets/radtek.png'
 import cactus from './assets/tiendaCactus.png'
 import wise from './assets/wise.png'
 import countries from './assets/countries.png'
-import 'atropos/css'
 import Atropos from 'atropos/react';
 import bootstrap from './assets/bootstrap.png'
 import css from './assets/css.png'
@@ -19,6 +19,8 @@ import redux from './assets/redux.png'
 import android from './assets/android.png'
 import LanguageIcon from '@mui/icons-material/Language';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import tictac from './assets/tictac.png'
+
 
 const Proyectos = () => {
   return (
@@ -58,7 +60,44 @@ const Proyectos = () => {
                     
                 </div>
             </Atropos>
+            <Atropos style={{margin:50}}>
+            <div className='cardProyecto'>
+                            <img className='imgProyecto' src={tictac} alt="" />
+                            <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>Tic Tac Toe</p>
+                            <p className='textCard'>Es un simple juego realizado con el fin de practicar el manejo de estados y la logica de Javascript en ReactJs</p>
+                            <br />
+                            <hr />
+                            <br />
+                            <div className='sectionIcons'>
+                                <img className='icontech' src={react} alt="Icono de react" />
+                                <img className='icontech' src={css} alt="Icono de Css" />
+                                <img className='icontech' src={js} alt="Icono de Javascript" />
+                                <img className='icontech' src={bootstrap} alt="Icono de Bootstrap" />
+                                
+                            </div>
+                            <div className='containerBtn'>
+                                <a className='a' href="https://65033f76977710043cbd965a--magenta-zabaione-7b40a5.netlify.app/" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <LanguageIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
 
+                                <a className='a' href="https://github.com/Manuel-latorre/tic-tac-toe" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <GitHubIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
+                            </div>
+
+                    
+                </div>
+                </Atropos>
 
             <Atropos style={{margin:50}}>
                 <div className='cardProyecto'>
@@ -233,6 +272,45 @@ const Proyectos = () => {
                                 </a>
                             </div>
                        
+                    
+                </div>
+
+                <div className='cardProyecto'>
+                    
+                      
+                            <img className='imgProyecto' src={tictac} alt="" />
+                            <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>Tic Tac Toe</p>
+                            <p className='textCard'>Es un simple juego realizado con el fin de practicar el manejo de estados y la logica de Javascript en ReactJs</p>
+                            <br />
+                            <hr />
+                            <br />
+                            <div className='sectionIcons'>
+                                <img className='icontech' src={react} alt="Icono de react" />
+                                <img className='icontech' src={css} alt="Icono de Css" />
+                                <img className='icontech' src={js} alt="Icono de Javascript" />
+                                <img className='icontech' src={bootstrap} alt="Icono de Bootstrap" />
+                                
+                            </div>
+                            <div className='containerBtn'>
+                                <a className='a' href="https://65033f76977710043cbd965a--magenta-zabaione-7b40a5.netlify.app/" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <LanguageIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
+
+                                <a className='a' href="https://github.com/Manuel-latorre/tic-tac-toe" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <GitHubIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
+                            </div>
+
                     
                 </div>
            
