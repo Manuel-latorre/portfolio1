@@ -20,7 +20,7 @@ import android from './assets/android.png'
 import LanguageIcon from '@mui/icons-material/Language';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import tictac from './assets/tictac.png'
-
+import weather from './assets/weather1.gif'
 
 const Proyectos = () => {
   return (
@@ -97,6 +97,41 @@ const Proyectos = () => {
 
                     
                 </div>
+                </Atropos>
+
+                <Atropos style={{margin:50}}>
+                    <div className='cardProyecto'>
+                            <img className='imgProyecto' src={weather} alt="" />
+                            <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>Weather App</p>
+                            <p className='textCard'>Es un App del clima para poder informarse sobre el clima de cualquier ciudad del mundo. Esta misma esta desarrollada con React Native y Expo</p>
+                            <br />
+                            <hr />
+                            <br />
+                            <div className='sectionIcons'>
+                                <img className='icontech' src={react} alt="Icono de react" />
+                                <img className='icontech' src={css} alt="Icono de Css" />
+                                <img className='icontech' src={js} alt="Icono de Javascript" />
+                            </div>
+                            <div className='containerBtn'>
+                                <a className='a' href="https://drive.google.com/file/d/101RMc3_2vV7oTvcfsxhCu5ewTn6iIUR8/view?usp=drive_link" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <LanguageIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
+
+                                <a className='a' href="https://github.com/Manuel-latorre/Weather-App" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <GitHubIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
+                            </div>
+                        </div>
                 </Atropos>
 
             <Atropos style={{margin:50}}>
@@ -239,6 +274,39 @@ const Proyectos = () => {
                       
                     
                 </div>
+                    <div className='cardProyecto'>
+                            <img className='imgProyecto' src={weather} alt="" />
+                            <p style={{fontSize:30, fontWeight: 'bold', marginBottom: 20}}>Weather App</p>
+                            <p className='textCard'>Es un App del clima para poder informarse sobre el clima de cualquier ciudad del mundo. Esta misma esta desarrollada con React Native y Expo</p>
+                            <br />
+                            <hr />
+                            <br />
+                            <div className='sectionIcons'>
+                                <img className='icontech' src={react} alt="Icono de react" />
+                                <img className='icontech' src={css} alt="Icono de Css" />
+                                <img className='icontech' src={js} alt="Icono de Javascript" />
+                            </div>
+                            <div className='containerBtn'>
+                                <a className='a' href="https://drive.google.com/file/d/101RMc3_2vV7oTvcfsxhCu5ewTn6iIUR8/view?usp=drive_link" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <LanguageIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
+
+                                <a className='a' href="https://github.com/Manuel-latorre/Weather-App" target='_blank'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <GitHubIcon style={{marginRight: 10}} sx={{fontSize: 30}}/>
+                                    Visitar
+                                </a>
+                            </div>
+                        </div>
+                
           
 
 
