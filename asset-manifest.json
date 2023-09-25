@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio1/static/css/main.613a5072.css",
-    "main.js": "/portfolio1/static/js/main.8664b02b.js",
+    "main.js": "/portfolio1/static/js/main.8f1deb83.js",
     "static/js/787.1297335f.chunk.js": "/portfolio1/static/js/787.1297335f.chunk.js",
+    "static/media/weather1.gif": "/portfolio1/static/media/weather1.e9947a09853f43bbd85f.gif",
     "static/media/tictac.png": "/portfolio1/static/media/tictac.122784559a0a3e06a9dd.png",
     "static/media/radtek.png": "/portfolio1/static/media/radtek.de1a63cfda72e5f9af83.png",
     "static/media/Manuel-Latorre-Fullstack.pdf": "/portfolio1/static/media/Manuel-Latorre-Fullstack.4063e107395c9c06ddcd.pdf",
@@ -17,11 +18,11 @@
     "static/media/ManuelLogo1.png": "/portfolio1/static/media/ManuelLogo1.522278435d896b606df6.png",
     "index.html": "/portfolio1/index.html",
     "main.613a5072.css.map": "/portfolio1/static/css/main.613a5072.css.map",
-    "main.8664b02b.js.map": "/portfolio1/static/js/main.8664b02b.js.map",
+    "main.8f1deb83.js.map": "/portfolio1/static/js/main.8f1deb83.js.map",
     "787.1297335f.chunk.js.map": "/portfolio1/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.613a5072.css",
-    "static/js/main.8664b02b.js"
+    "static/js/main.8f1deb83.js"
   ]
 }
